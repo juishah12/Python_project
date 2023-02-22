@@ -6,7 +6,7 @@ class student:
        self.student_id = rollno
        self.name= name
        self.mailid = mailid
-       self.per = percentage
+      # self.percentage = percentage
 
    def get_student_name(self):
            self.name
@@ -17,6 +17,7 @@ class student:
    @staticmethod
    def get_school_detail():
        return student.school_Name +"is located at "+student.school_Address
-   @property
-   def get_student_name(self)
-       return self.student_name
+
+   #@property
+   #def get_student_name(self)
+    #   return self.student_name
