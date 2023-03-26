@@ -1,9 +1,9 @@
-from student_package.student_type import Student
+from student_project_day3_assignment.student_package.student_type import Student
 print(Student.school_Name)
 print(Student.school_Address)
 
-Student.school_Name = "Saint kabir"
-Student.school_Address = "Drive in"
+Student.school_Name = "Global school"
+Student.school_Address = "chennai"
 
 print(Student.school_Name)
 print(Student.school_Address)
@@ -30,6 +30,8 @@ student3.student_Percentage = 56.5
 print(student1.student_Mailid)
 print(student2.student_Mailid)
 print(student3.student_Mailid)
+
+student2=student1
 
 stu1=student1.student_Mailid
 stu2=student2.student_Mailid

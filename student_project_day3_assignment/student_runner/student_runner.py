@@ -1,4 +1,4 @@
-from student_package.student_type import Student
+from student_project_day3_assignment.student_package.student_type import Student
 print(Student.school_Name)
 print(Student.school_Address)
 
